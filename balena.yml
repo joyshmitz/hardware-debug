@@ -1,19 +1,21 @@
-name: template
+name: hardware-debug
 description: >-
-  Template block enabling you to get started building balenablocks for your projects and fleets.
-fleetcta: Template balenablock
+  Block enabling you to gather hardware information and control hardware interfaces
+fleetcta: hardware-debug balena block
 version: 0.0.1
 type: sw.application
 assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balenablocks/template'
+      url: 'https://github.com/rcooke-warwick/hardware-debug-block'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balenablocks/template/main/docs/images/icon.png'
+      url: ''
 data:
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
     - raspberrypi3
+    - raspberrypi4
+    - fincm3
