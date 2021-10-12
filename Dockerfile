@@ -2,6 +2,7 @@ FROM node:12-alpine
 
 RUN apk add --no-cache i2c-tools
 RUN apk add --no-cache lshw
+RUN apk add --no-cache usbutils
 
 WORKDIR /usr/app
 COPY lib lib
