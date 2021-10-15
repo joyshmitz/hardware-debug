@@ -1,4 +1,4 @@
-name: hardware-debug-block
+name: hardware-debug
 description: >-
   Block enabling you to gather hardware information and control hardware interfaces
 fleetcta: hardware-debug balena block
@@ -8,11 +8,11 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/rcooke-warwick/hardware-debug-block'
+      url: 'https://github.com/rcooke-warwick/hardware-debug'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/rcooke-warwick/hardware-debug-block/master/docs/images/icon.png'
+      url: 'https://raw.githubusercontent.com/rcooke-warwick/hardware-debug/master/docs/images/icon.png'
 data:
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
