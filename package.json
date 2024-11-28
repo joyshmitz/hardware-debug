@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/balena-io-playground/balenablock-template#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.1",
     "swagger-ui-express": "^4.1.6",
     "swagger-autogen": "^2.6.3"
   }
